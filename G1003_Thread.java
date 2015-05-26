@@ -1,5 +1,3 @@
-package proj1;
-
 
 class NewThread33 extends Thread{					//Класс NewThread расширяет класс Thread:
 	

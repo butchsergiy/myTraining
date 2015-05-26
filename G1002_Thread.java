@@ -1,4 +1,3 @@
-package proj1;
 
 class NewThread implements Runnable{
 	

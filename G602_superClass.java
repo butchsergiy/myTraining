@@ -1,4 +1,4 @@
-package proj1;
+//package proj1;
 
 class MySuperClass{ 	// Суперкласс
 	

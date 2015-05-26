@@ -1,4 +1,4 @@
-package Collectionss;
+package collectionss;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -16,16 +16,29 @@ public class ArrayList_and_Iterator {
 		System.out.println("----\n"+names+"\n----");	
 	
 //// Using a for-each Loop
+			System.out.println("\n---- Using Using a for-each Loop");
+		
 		for(String a:names) System.out.println(a);
-		System.out.println("----");
 
+		
+		
+////////////////////////////////////////////////////////////////////////
+			System.out.println("\n---- Using the forEach() Method");
+		names.forEach(System.out::println);
+				
+		
+		
 /////////////////////////////////////////////////////////////////////////
+			System.out.println("\n---- Using of method .forEachRemaining(do)");
+		
 		Iterator<String> namesIterator0=names.iterator();  	// Get an iterator for the list
 		namesIterator0.forEachRemaining(System.out::println);	// .forEachRemaining(do)
-		System.out.println("----");
+		
 
 		
 ////////////////////////////////////////////////////////////////////////		
+			System.out.println("\n---- Using of while, next(), .remove()");
+		
 		namesIterator0=names.iterator();  	// Get a new iterator for the list
 		
 		while(namesIterator0.hasNext()){						// Iterate over all elements in the list
