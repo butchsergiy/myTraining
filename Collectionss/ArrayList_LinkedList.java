@@ -2,11 +2,10 @@ package collectionss;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Test2 {
+public class ArrayList_LinkedList {
 
 	public static void main(String[] args) {
 	
@@ -34,16 +33,7 @@ public class Test2 {
 		
 		
 		
-/////////////////////////////////////////////////////////////////////////////////////////	
-		HashMap<Integer, String> myMap =new HashMap<Integer, String>();
-		myMap.put(2,"two");
-		myMap.put(3,"three");
-		myMap.put(4,"four");
-		myMap.put(5,"five");
-		myMap.put(6,"six");
-		
-		System.out.println("\n *** HashMap ***\n"+myMap.get(2));
-		System.out.println(myMap);
+
 		
 	}
 

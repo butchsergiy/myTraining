@@ -3,7 +3,7 @@ package collectionss;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class TreeSet_tets {
+public class TreeSet_test {
 
 	public static void main(String[] args) {
 

@@ -29,10 +29,10 @@ public class ArrayList_and_Iterator {
 		
 		
 /////////////////////////////////////////////////////////////////////////
-			System.out.println("\n---- Using of method .forEachRemaining(do)");
+			System.out.println("\n---- Using of method - Iterator.forEachRemaining(do)");
 		
-		Iterator<String> namesIterator0=names.iterator();  	// Get an iterator for the list
-		namesIterator0.forEachRemaining(System.out::println);	// .forEachRemaining(do)
+		Iterator<String> namesIterator0=names.iterator();  			// Get an iterator for the list
+		namesIterator0.forEachRemaining(System.out::println);		// .forEachRemaining(do)
 		
 
 		

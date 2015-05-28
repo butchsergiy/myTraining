@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class TreeSet_tets2 {
+public class TreeSet_test2 {
 
 	public static void main(String[] args) {
 
