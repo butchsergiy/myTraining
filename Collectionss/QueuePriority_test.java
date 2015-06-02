@@ -42,7 +42,7 @@ class Persons implements Comparable<Persons>{
 
 
 
-public class PriorityQueue_test {
+public class QueuePriority_test {
 
 	public static void main(String[] args) {
 
@@ -54,6 +54,7 @@ public class PriorityQueue_test {
 		pp.add(new Persons(2, "Olecsandr"));
 		
 		System.out.println(pp);
+		
 		
 		while(pp.peek()!=null){
 			System.out.println("\nHead element: "+pp.poll());
